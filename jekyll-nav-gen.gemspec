@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-nav-gen"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.4"
   spec.authors       = ["Fabian Morón Zirfas"]
   spec.email         = ["fabian.moron.zirfas@gmail.com"]
   spec.summary       = "Generate Nav for site."
@@ -16,5 +16,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "jekyll", '~> 3.0'
-  spec.add_dependency 'nokogiri', '~> 0'
+  spec.add_dependency 'nokogiri', '~> 1.8'
 end
