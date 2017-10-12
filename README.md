@@ -38,7 +38,7 @@ gem "jekyll"
 gem "nokogiri"
 
 group :jekyll_plugins do
-  gem "jekyll-nav-gen", :git => 'git@github.com:fabianmoronzirfas/jekyll-nav-gen.git'
+  gem "jekyll-nav-gen"
 end
 ```
 

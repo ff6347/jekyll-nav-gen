@@ -1,4 +1,4 @@
-Dir[File.dirname(__FILE__) + "/nav-gen/*.rb"].each {|file| require file[0..-4] }
+Dir[File.dirname(__FILE__) + "/jekyll-nav-gen/*.rb"].each {|file| require file[0..-4] }
 require "nokogiri"
 def inject(page)
   # puts page.inspect
