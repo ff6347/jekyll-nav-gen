@@ -27,6 +27,19 @@ This could be more generic. Written for [fabianmoronzirfas/jekyll-theme-tou-dai]
 </div>
 </header>
 ```
+and under _data/menu.json
+
+```json
+    [
+  {
+    "title": "Home",
+    "url": "/"
+  },{
+    "title":"Impressum",
+    "url":"/impressum"
+  }
+]
+```
 
 To work properly.  
 
