@@ -1,7 +1,7 @@
 Jekyll Nav Generator
 ====================
 
-This could be more generic. Currently it needs a menu structure like this one:  
+This could be more generic. Written for [fabianmoronzirfas/jekyll-theme-tou-dai](https://github.com/fabianmoronzirfas/jekyll-theme-tou-dai) Currently it needs a menu structure like this one:  
 
 ```html
     <header>
