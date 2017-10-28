@@ -1,7 +1,9 @@
 Jekyll Nav Generator
 ====================
 
-This could be more generic. Written for [fabianmoronzirfas/jekyll-theme-tou-dai](https://github.com/fabianmoronzirfas/jekyll-theme-tou-dai) Currently it needs a menu structure like this one:  
+This Jekyll plugin generates menu (`<li>`) entries for each `<h2>` headline. It only works with collections not pages nor posts. It could be more generic. Written for [fabianmoronzirfas/jekyll-theme-tou-dai](https://github.com/fabianmoronzirfas/jekyll-theme-tou-dai). See the theme for its usage.  
+
+Currently it needs a menu structure like this one. Could be placed into `_include/header.html`:  
 
 ```html
     <header>
@@ -27,7 +29,8 @@ This could be more generic. Written for [fabianmoronzirfas/jekyll-theme-tou-dai]
 </div>
 </header>
 ```
-and under _data/menu.json
+
+and under `_data/menu.json`
 
 ```json
     [
@@ -42,6 +45,7 @@ and under _data/menu.json
 ```
 
 To work properly.  
+
 
 To install it add the following code to your Gemfile:  
 
