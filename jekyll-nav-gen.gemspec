@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-nav-gen"
-  spec.version       = "0.2.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Fabian Morón Zirfas"]
   spec.email         = ["fabian.moron.zirfas@gmail.com"]
   spec.summary       = "Generate Nav for site."
